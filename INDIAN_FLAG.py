@@ -6,9 +6,7 @@ screen.title("INDIAN FLAG")
 ak = india.Turtle()
 ak.penup()
 ak.setpos(-200,-300)
-ak.speed(1)
 def rod():
-    ak.speed(1)
     ak.pendown()
     ak.begin_fill()
     ak.fillcolor('grey')
@@ -28,7 +26,6 @@ def rod():
     ak.penup()
 
 def orange():
-    ak.speed(1)
     ak.goto(-190,200)
     ak.pendown()
     ak.begin_fill()
@@ -43,7 +40,6 @@ def orange():
     ak.penup()
 
 def ashok_chakra():
-    ak.speed(1)
     ak.penup()
     ak.goto(-65,140)
     ak.pendown()
@@ -56,12 +52,10 @@ def ashok_chakra():
         ak.forward(30)
         ak.backward(30)
         ak.right(15)
-        time.sleep(2)
     ak.penup()
     
 
 def white():
-    ak.speed(1)
     ak.goto(-190,140)
     ak.pendown()
     ak.left(90)
@@ -75,7 +69,6 @@ def white():
 
 
 def green():
-    ak.speed(1)
     ak.goto(-190,20)
     ak.begin_fill()
     ak.pendown()
@@ -89,7 +82,6 @@ def green():
     ak.end_fill()
 
 def base():
-    ak.speed(1)
     ak.goto(-200,-300)
     ak.pendown()
     ak.begin_fill()
